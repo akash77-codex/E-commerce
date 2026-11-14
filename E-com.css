@@ -84,6 +84,9 @@
 
    /*    */
 
+  #main{
+    margin-top: 30px;
+  }
     .in{
         display:flex;
        justify-content: space-evenly;
@@ -179,7 +182,9 @@
         width: 100%;
        
     }
-
+   .p{
+    margin-top: 60px;
+   }
     .footer-m{
      
        color: aliceblue;  

@@ -6,9 +6,15 @@ function hideAll() {
         div.style.display = "none";
     });
 }
+function hidem() {
+    document.querySelectorAll(".log").forEach(div => {
+        div.style.display = "none";
+    });
+}
 
 function home(){
   hideAll();
+  hidem();
 
   document.querySelector(".home").style.display = "grid";
 
@@ -100,6 +106,7 @@ function home(){
    
  function shirt() {
     hideAll();
+     hidem();
 
     document.querySelector(".shirt").style.display = "grid";
 
@@ -195,6 +202,7 @@ function home(){
    function jeans(){
 
    hideAll();
+    hidem();
 
     document.querySelector(".jeans").style.display = "grid";
 
@@ -286,6 +294,7 @@ function home(){
   }
    function tshirt(){
   hideAll();
+   hidem();
 
     document.querySelector(".tshirt").style.display = "grid";
 
@@ -378,6 +387,7 @@ function home(){
    function dress(){
  
  hideAll();
+  hidem();
 
     document.querySelector(".dress").style.display = "grid";
 
@@ -468,6 +478,7 @@ function home(){
 function gs(){
 
  hideAll();
+  hidem();
 
     document.querySelector(".gs").style.display = "grid";
 
