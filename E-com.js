@@ -12,10 +12,11 @@ function hidem() {
     });
 }
 
+
 function home(){
   hideAll();
   hidem();
-
+  
   document.querySelector(".home").style.display = "grid";
 
 '<div class="box">' 
